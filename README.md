@@ -1,11 +1,22 @@
+Readme
 
-# Bienvenido a TotalDeporte
-Todo lo que necesitas para vivir el deporte al máximo
+URBN Sportwear es una landing page moderna y responsive para una tienda de artículos deportivos. El objetivo principal es atraer clientes potenciales, mostrar productos destacados y dirigirlos hacia una experiencia de compra completa, este proyecto es realizado por alumnos apasionados por la programación, buscando crear una página que le brinde al usuario una experiencia amable tanto para las personas expertas, como para los principiantes. 
 
-En TotalDeporte encontrarás el mejor equipamiento, ropa deportiva y accesorios para llevar tu rendimiento al siguiente nivel. Ya seas principiante o atleta profesional, aquí tienes un espacio diseñado para inspirarte, impulsarte y acompañarte en cada paso de tu camino deportivo.
+Características
+•	Diseño atractivo y responsive.
+•	Interfaz amable con el usuario. 
+•	 Sección de productos destacados.
+•	Opiniones de nuestros clientes.
+•	Formulario de suscripción.
+•	 Carga rápida y navegación fluida.
+•	Chatbot integrado.
 
-Además de nuestros productos de alta calidad, ofrecemos servicios personalizados como asesoría en entrenamiento, rutinas a medida y recomendaciones según tu disciplina.
-💪 Tu pasión es nuestro motor.
+Tecnologías usadas
+•	HTML5.
+•	CSS3.
+•	JavaScript.
+•	Bootstrap.
 
-Explora, elige y entrena con lo mejor. ¡El deporte te está esperando!
+
+
 
