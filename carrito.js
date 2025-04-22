@@ -36,3 +36,37 @@ function vaciarCarrito() {
   total = 0;
   mostrarCarrito();
 }
+
+
+function finalizarCompra() {
+    if (carrito.length === 0) {
+      Swal.fire({
+        icon: 'warning',
+        title: 'Tu carrito está vacío',
+        imageUrl: '/Logo negro.png',
+        imageWidth: 90, 
+        imageHeight: 40, 
+        showConfirmButton: false,
+        timer: 1500
+      });
+      return;
+    }
+  
+    Swal.fire({
+      title: '¡Gracias por tu compra!',
+      text: `Total pagado: $${total.toLocaleString()}`,
+      icon: 'success',
+      imageUrl: '/Logo negro.png',
+        imageWidth: 90, 
+        imageHeight: 40,
+      confirmButtonText: 'Aceptar',
+      showClass: {
+        popup: 'animate__animated animate__fadeInDown'
+      },
+      hideClass: {
+        popup: 'animate__animated animate__fadeOutUp'
+      }
+    });
+  
+    vaciarCarrito(); // Esto limpia el carrito después de comprar
+  }
