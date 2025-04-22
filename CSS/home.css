@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+background-color:#1B2831;
+font-family:"Bebas Neue";
+font-size: 30px;
+}
+.navbar .nav-link{
+color: #AFCEE2;
+}
+/* Hero */
+.hero {
+background: url('/Imagenes/imagen\ principal.png') no-repeat center center/cover;
+color: white;
+padding: 100px 20px;
+text-align: center;
+font-family: lexend;
+}
+
+.hero h1 {
+font-size: 3rem;
+margin-bottom: 1rem;
+font-family: bebas neue;
+}
+
+.hero .btn {
+margin: 10px;
+background-color: #1B2831;
+border: none;
+border-radius: 0;
+}
+
+.hero .btn:hover {
+background-color: #A63E1B;
+}
+
+/* Productos */
+section {
+background-color: #F9F9F9;
+font-family:lexend;
+}
+
+.card {
+border: none;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card .btn {
+background-color: #EA5E2D;
+border: none;
+border-radius: 0;
+}
+
+.card .btn:hover {
+background-color: #A63E1B;
+}
+/* Modal carrito de compras */
+.modal-content{
+background-color: #AFCEE2;
+font-family: lexend;
+border-radius: 0;
+border:0;
+}
+.modal-header{
+background-color: #47596D;
+color: #FFFFFF;
+font-family: bebas neue;
+border-radius: 0;
+border:0;
+}
+.btn-close{
+background-color: #FFFFFF;
+}
+.list-group{
+border-radius: 0;
+}
+.list-group-item{
+border: 0;
+background-color: #ffffff83;
+margin: 3px;
+}
+.modal-footer{
+background-color: #47596D;
+color: #FFFFFF;
+border-radius: 0;
+border:0;
+}
+.modal-footer .btn-primary{
+background-color: #EA5E2D;
+border:0;
+border-radius: 0;
+}
+
+.modal-footer .btn-secondary{
+background-color: #1B2831;
+border:0;
+border-radius: 0;
+}
+.list-group-item .btn-danger{
+border:0;
+border-radius: 0;
+}
+
+/* Testimonios */
+section.bg-light {
+font-family:lexend;
+background-color: #1B2831 !important;
+color: white;
+}
+
+.stars i {
+color: #EA5E2D;
+}
+
+/* Formulario */
+.form {
+padding: 60px 20px;
+background-color: #AFCEE2;
+text-align: center;
+font-family: lexend;
+}
+
+.form h1 {
+margin-bottom: 20px;
+}
+.form-container {
+  width: 50%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-control {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form .btn-primary{
+background-color: #EA5E2D;
+border-radius: 0;
+border:0;
+}
+
+/* Footer */
+.footer {
+background-color: #424149;
+color: white;
+padding: 40px 20px;
+font-family: lexend;
+}
+
+.footer-column h3 {
+color: #AFCEE2;
+}
+
+.footer img {
+filter: brightness(0) invert(1);
+}
