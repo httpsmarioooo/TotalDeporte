@@ -146,7 +146,7 @@ border:0;
 
 /* Footer */
 .footer {
-background-color: #424149;
+background-color: #1B2831;
 color: white;
 padding: 40px 20px;
 font-family: lexend;
@@ -158,4 +158,22 @@ color: #AFCEE2;
 
 .footer img {
 filter: brightness(0) invert(1);
+}
+
+.btn-wsp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:65px;
+  right:25px;
+  background:#ea5e2d;
+  border-radius:50px;
+  border-color: #ea5e2d;
+  text-align:center;   
+  z-index:100;
+  transition: all 300ms ease;
+}
+.btn-wsp:hover{
+  background: #a63e1b;
+  border-color: #a63e1b;
 }

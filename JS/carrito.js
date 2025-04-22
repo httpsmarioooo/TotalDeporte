@@ -43,7 +43,7 @@ function finalizarCompra() {
       Swal.fire({
         icon: 'warning',
         title: 'Tu carrito está vacío',
-        imageUrl: '/Logo negro.png',
+        imageUrl: '/Imagenes/Logo negro.png',
         imageWidth: 90, 
         imageHeight: 40, 
         showConfirmButton: false,
@@ -56,7 +56,7 @@ function finalizarCompra() {
       title: '¡Gracias por tu compra!',
       text: `Total pagado: $${total.toLocaleString()}`,
       icon: 'success',
-      imageUrl: '/Logo negro.png',
+      imageUrl: '/Imagenes/Logo negro.png',
         imageWidth: 90, 
         imageHeight: 40,
       confirmButtonText: 'Aceptar',
